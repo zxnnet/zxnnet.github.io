@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Hello Jekyll'
 tags: jekyll
 key: b89
