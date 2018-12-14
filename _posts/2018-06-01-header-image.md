@@ -1,6 +1,7 @@
 ---
 title: Post with Header Image
 tags: TeXt
+key: a001
 article_header:
   type: cover
   image:
