@@ -41,13 +41,23 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ### Code Test
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+class Solution(object):
+    def isSameTree(self, p, q):
+        if p == None and q == None:
+            return True
+        elif p == None or q == None:
+            return False
+
+        if p.val == q.val:
+            return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        else:
+            return False
 {% endhighlight %}
+
+### Music Test
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="100" src="//music.163.com/outchain/player?type=2&id=1329734055&auto=1&height=66"></iframe>
 
 ### Video Test
 
