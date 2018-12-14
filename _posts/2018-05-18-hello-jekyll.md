@@ -1,7 +1,8 @@
 ---
 layout: article
-title: 'Hello Jekyll'
+title: Hello Jekyll
 tags: jekyll
+mode: immersive
 key: b89
 aside:
   toc: true
