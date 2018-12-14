@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Hello Jekyll'
-author: Jekyll
 tags: jekyll
 key: b89
 aside:
