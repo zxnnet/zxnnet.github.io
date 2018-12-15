@@ -5,7 +5,7 @@
   "short_name": "tech",
   "description": "View's Tech Blog",
   "lang": "en_US",
-  "start_url": "https://tech.viewv.top",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#203028",
