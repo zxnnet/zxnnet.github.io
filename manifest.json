@@ -3,13 +3,13 @@
   "short_name": "tech",
   "description": "View's Tech Blog",
   "lang": "en_US",
-  "start_url": "/",
+  "start_url": "https://tech.viewv.top",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#203028",
   "icons": [{
-    "src": "/assets/images/logo/logo.png",
-    "sizes": "192x192",
+    "src": "/assets/android-chrome-512x512.png",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "background_color": "#fff"

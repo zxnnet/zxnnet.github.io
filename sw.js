@@ -29,7 +29,7 @@ self.addEventListener('install', e => {
         '/assets/android-chrome-512x512.png',
         '/assets/apple-touch-icon.png',
         '/assets/browserconfig.xml',
-        'assets/favicon-16x16.png',
+        '/assets/favicon-16x16.png',
         '/assets/favicon.ico'
       ]);
     })
