@@ -1,0 +1,15 @@
+{
+  "name": "View-Tech",
+  "short_name": "tech",
+  "description": "View's Tech Blog",
+  "lang": "en_US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#203028",
+  "icons": [{
+    "src": "/assets/images/logo",
+    "sizes": "24*24",
+    "type": "image/svg"
+  }],
+  "background_color": "#fff"
+}
