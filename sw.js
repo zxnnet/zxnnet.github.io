@@ -1,3 +1,15 @@
+// if ('serviceWorker' in navigator) {
+//   window.addEventListener('load', function() {
+//     navigator.serviceWorker.register('/sw.js').then(function(registration) {
+//       // Registration was successful
+//       console.log('ServiceWorker registration successful with scope: ', registration.scope);
+//     }, function(err) {
+//       // registration failed :(
+//       console.log('ServiceWorker registration failed: ', err);
+//     });
+//   });
+// }
+
 self.addEventListener('push', function(event) {
   console.log('[Service Worker] Push Received.');
   console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
