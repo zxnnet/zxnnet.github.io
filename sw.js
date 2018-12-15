@@ -22,9 +22,15 @@ self.addEventListener('install', e => {
         '/',
         '/index.html',
         '/about.html',
-        '/images/doggo.jpg',
-        '/styles/main.min.css',
-        '/scripts/main.min.js',
+        '/assets/images/logo/logo.png',
+        '/assets/css/main.scss',
+        '/assets/android-chrome-192x192.png',
+        '/assets/images/logo/logo.svg',
+        '/assets/android-chrome-512x512.png',
+        '/assets/apple-touch-icon.png',
+        '/assets/browserconfig.xml',
+        'assets/favicon-16x16.png',
+        '/assets/favicon.ico'
       ]);
     })
   );

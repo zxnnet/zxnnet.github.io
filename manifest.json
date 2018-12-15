@@ -8,9 +8,9 @@
   "orientation": "any",
   "theme_color": "#203028",
   "icons": [{
-    "src": "/assets/images/logo",
-    "sizes": "24*24",
-    "type": "image/svg"
+    "src": "/assets/images/logo/logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
   }],
   "background_color": "#fff"
 }
