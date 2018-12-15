@@ -1,9 +1,11 @@
 {
+  "dir": "ltr",
+  "scope": "/",
   "name": "View-Tech",
   "short_name": "tech",
   "description": "View's Tech Blog",
   "lang": "en_US",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#203028",
