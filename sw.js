@@ -1,20 +1,31 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?v=1518012075').then(function(reg) {
-    reg.onupdatefound = function() {
-      var installingWorker = reg.installing;
-      installingWorker.onstatechange = function() {
-        switch (installingWorker.state) {
-          case 'installed':
-            if (navigator.serviceWorker.controller) {
-              var event = document.createEvent('Event');
-              event.initEvent('sw.update', true, true);
-              window.dispatchEvent(event);
-            }
-            break;
-        }
-      };
-    };
-  }).catch(function(e) {
-    console.error('Error during service worker registration:', e);
-  });
+function registerServiceWorker() {
+  // register sw script in supporting browsers
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js', {
+      scope: '/'
+    }).then(() => {
+      console.log('Service Worker registered successfully.');
+    }).catch(error => {
+      console.log('Service Worker registration failed:', error);
+    });
+  }
 }
+
+// sw.js
+self.addEventListener('install', e => {
+  e.waitUntil(
+    // after the service worker is installed,
+    // open a new cache
+    caches.open('my-pwa-cache').then(cache => {
+      // add all URLs of resources we want to cache
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/about.html',
+        '/images/doggo.jpg',
+        '/styles/main.min.css',
+        '/scripts/main.min.js',
+      ]);
+    })
+  );
+});

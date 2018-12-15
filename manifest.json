@@ -5,6 +5,7 @@
   "lang": "en_US",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "any",
   "theme_color": "#203028",
   "icons": [{
     "src": "/assets/images/logo",

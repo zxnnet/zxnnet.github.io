@@ -200,23 +200,23 @@ defaults:
       show_edit_on_github: true
       pageview: true
 
-pwa:
-  sw_filename: sw.js
-  dest_js_directory: js
-  cache_name: pwa-cache
-  precache_recent_posts_num: 12
-  precache_glob_directory: /
-  precache_glob_patterns:
-    - "{js,css,fonts}/**/*.{js,css,woff,woff2}"
-    - /index.html
-    - /about.html
-  precache_glob_ignores:
-    - sw-register.js
-  runtime_cache:
-    - route: /^api\/getdata/
-  strategy: networkFirst
-    - route: "'/api/pic'"
-  strategy: cacheFirst
+# pwa:
+#   sw_filename: sw.js
+#   dest_js_directory: js
+#   cache_name: pwa-cache
+#   precache_recent_posts_num: 12
+#   precache_glob_directory: /
+#   precache_glob_patterns:
+#     - "{js,css,fonts}/**/*.{js,css,woff,woff2}"
+#     - /index.html
+#     - /about.html
+#   precache_glob_ignores:
+#     - sw-register.js
+#   runtime_cache:
+#     - route: /^api\/getdata/
+#   strategy: networkFirst
+#     - route: "'/api/pic'"
+#   strategy: cacheFirst
 
 
 ## => Plugins
