@@ -49,6 +49,8 @@ article_header:
 
 但是怎么保存count的位置呢？这里使用Python中的字典，也就是哈希表这种东西，关键字是count，键值是这个count在当时的位置，这样就可以快速的寻找位置进行计算了，是有些精妙的。
 
+## 代码
+
 下面是AC的代码：
 
 {% highlight python %}
