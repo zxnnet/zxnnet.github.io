@@ -19,7 +19,7 @@ article_header:
 
 # Leetcode 525-Contiguous Array 题解
 
-> **原题目**  
+## 题目  
 >
 > Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 >
