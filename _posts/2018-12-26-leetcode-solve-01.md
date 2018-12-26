@@ -3,7 +3,7 @@ layout: article
 title: Leetcode 525-Contiguous Array 题解
 tags: Leetcode
 mode: immersive
-key: l01
+key: l11
 aside:
   toc: true
 header:
