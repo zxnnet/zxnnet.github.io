@@ -14,7 +14,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: https://raw.githubusercontent.com/viewv/Pico/master/img/20181226215706.jpg
+    src: https://viewv.top/Pico/img/20181226204335.jpg
 ---
 
 # Leetcode 525-Contiguous Array 题解
