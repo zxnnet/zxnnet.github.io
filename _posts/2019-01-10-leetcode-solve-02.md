@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Leetcode 300-Longest Increasing Subsequence 题解 01
+title: Leetcode 300-Longest Increasing Subsequence 题解
 tags: Leetcode
 mode: immersive
 key: l12
@@ -17,7 +17,7 @@ article_header:
     src: https://viewv.top/Pico//img/angel-origgi-1198759-unsplash.jpg
 ---
 
-# Leetcode 300-Longest Increasing Subsequence 题解 01
+# Leetcode 300-Longest Increasing Subsequence 题解
 
 ## 题目
 
@@ -65,4 +65,31 @@ class Solution:
 
 {% endhighlight %}
 
-这个问题还有一个更快速的算法，能够优化时间到$$O(nlogn)$$的时间复杂度，将会在第二篇博文中论述。
+这个问题还有一个更快速的算法，能够优化时间到$$O(nlogn)$$的时间复杂度，使用二分查找的方法来优化。
+
+## 优化
+
+先建立一个空的dp数组，然后开始遍历原数组，对于每一个遍历到的数字，我们用二分查找法在dp数组找第一个不小于它的数字，如果这个数字不存在，那么直接在dp数组后面加上遍历到的数字，如果存在，则将这个数字更新为当前遍历到的数字，最后返回dp数字的长度即可，注意的是，跟上面的方法一样，特别注意的是dp数组的值可能不是一个真实的LIS。下面是AC的代码：
+
+{% highlight python %}
+
+class Solution:
+​    def lengthOfLIS(self, nums):
+​        dp = []
+​        length = len(nums)
+​        for i in range(0, length):
+​            left = 0
+​            right = len(dp)
+​            while left < right:
+​                mid = left + (right - left) // 2
+​                if dp[mid] < nums[i]:
+​                    left = mid + 1
+​                else:
+​                    right = mid
+​            if right >= len(dp):
+​                dp.append(nums[i])
+​            else:
+​                dp[right] = nums[i]
+​        return len(dp)
+
+{% endhighlight %}
