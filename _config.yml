@@ -35,7 +35,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 author:
   type      : # "person" (default), "organization"
   name      : 张学楠
-  url       :
+  url       : https://viewv.top
   avatar    : https://raw.githubusercontent.com/viewv/Pico/master/img/20181214201900.jpeg
  # path or url of avatar image
   bio       : 上下求索
@@ -48,7 +48,7 @@ author:
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
   github    : viewv # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
-  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  telegram  : C_Monitor # "user_name" the last part of your profile url, e.g. https://t.me/user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
