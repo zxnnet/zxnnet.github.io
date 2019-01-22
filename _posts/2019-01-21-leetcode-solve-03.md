@@ -50,7 +50,6 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 {% highlight python %}
 
 class Solution:
-
 ​    def maxProduct(self, nums):
 ​        current_min = current_max = max_so_far = nums[0]
 ​        for i in range(1, len(nums)):
