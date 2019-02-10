@@ -35,7 +35,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 author:
   type      : # "person" (default), "organization"
   name      : 张学楠
-  url       : https://viewv.top
+  url       : https://viewv.github.io/
   avatar    : https://raw.githubusercontent.com/viewv/Pico/master/img/20181214201900.jpeg
  # path or url of avatar image
   bio       : 上下求索
@@ -60,7 +60,7 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
+  # root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
