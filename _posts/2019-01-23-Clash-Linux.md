@@ -39,7 +39,7 @@ pm2 start clash-linux
 
 我们linux也想有一个图形化的本地客户端：
 
-![](https://viewv.top/Pico//img/IMG_20190124_201110_278.jpg)
+![](https://i.loli.net/2019/02/25/5c73b170af1ec.jpg)
 
 可是我没发现，如果有好使的评论务必给我留一个，这里我便采用面板的方式来解决问题。
 
