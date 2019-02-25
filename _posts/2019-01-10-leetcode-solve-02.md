@@ -14,7 +14,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: https://viewv.top/Pico//img/angel-origgi-1198759-unsplash.jpg
+    src: https://i.loli.net/2019/02/25/5c73b43ae4b3c.png
 ---
 
 # Leetcode 300-Longest Increasing Subsequence 题解
