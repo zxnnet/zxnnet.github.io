@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Clash Linux 代理的使用
-tags: Clash Proxy Linux
+title: Clash Linux 代理的使用教程
+tags: Clash Proxy Linux 教程
 mode: immersive
 key: c11
 aside:
