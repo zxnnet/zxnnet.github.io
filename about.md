@@ -6,7 +6,7 @@ titles:
   zh-Hans: 关于
   zh-Hant: 關於
 mode: immersive
-comment: Fales
+comment: fales
 header:
   theme: dark
 article_header:
