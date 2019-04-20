@@ -5,15 +5,13 @@ titles:
   zh: 关于
   zh-Hans: 关于
   zh-Hant: 關於
-key: page-about
+mode: immersive
+comment: Fales
 header:
   theme: dark
 article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+  type: cover
+  image:
     src: https://i.loli.net/2019/04/20/5cbb128101743.jpg
 ---
 
