@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Leetcode 152-Maximum Product Subarray 题解
+title: Leetcode 229. Majority Element II 题解
 tags: Leetcode
 mode: immersive
-key: l13
+key: l71
 aside:
   toc: true
 header:
