@@ -23,6 +23,8 @@ Chrome OS 的确有开源的 Chromium OS 可以使用，比较起来区别和 AS
 
 国产的已经有 Fyde OS 了，基于Chromium OS，也做到了使用 Fyde 账户同步，也可以使用 Linux 应用与 Android 应用，但是我还是希望用原生的 Chrome OS 体验一下，看一看这个系统是什么样子，之后发现了这个项目：[Project Croissant](https://github.com/imperador/chromefy) 。这个项目可以“转化”一个 Chromium OS 的安装镜像到 Chrome OS 镜像，之后烧录到USB盘上面就可就可以开机选择启动来体验了，里面加载了谷歌的各种服务，听起来很棒。现在就开始本废文旅程，写一写跟官方说明差不多的安装步骤。
 
+![Chrome OS Desktop](https://i.loli.net/2019/08/27/k8d7Bl6rHx5m9Yy.jpg)
+
 ## 准备1：一份 Chromium OS 镜像
 
 首先要准备一份 Chromium OS 系统的镜像，在这里官方说明给了一个网站下载，并且"strongly recommend"这个网站上的镜像，那么就用这个，[ArnoldTheBats Chromium](https://chromium.arnoldthebat.co.uk/index.php?dir=special&order=modified&sort=desc) 。进入这个网站之后，根据你的电脑情况来选择其中一个下载，应该大部分人和我的电脑一样是 Intel 或者 AMD 64位的处理器，选择带 amd64 的，找个最新的 Build 下载就可以了。
@@ -78,3 +80,6 @@ Chrome OS 的确有开源的 Chromium OS 可以使用，比较起来区别和 AS
 在进入系统之后，用不一会就会说系统空间不足，这很奇怪，明明U盘很大，这个时候回到 Linux 系统下面，把U盘插入电脑里面，我使用 Gparted 那个图形化分区工具打开，就可以看到这个U盘已经被一堆我看不懂的分区占据了，还有一大块空闲空间，这个时候把位于末尾的分区扩大吃完剩余空间，执行之后再进入 Chrome OS，就可以有充足的空间了。
 
 有时间写一下在 Chrome OS 里面使用 Archlinux 替代原本的 Debian 的废文，现在差不多我还可以在 Chrome OS 里面使用几个 Linux 应用。
+
+![zsh arch in Chrome OS](https://i.loli.net/2019/08/27/Ndr7Jls4GX8FQ21.jpg)
+
