@@ -19,7 +19,7 @@ article_header:
 
 # Project Croissant 在普通电脑上使用 Chrome OS
 
-Chrome OS 的确有开源的 Chromium OS 可以使用，比较起来区别和 ASOP 与 Google Android 的区别类似，Chrome OS 有 Google Play 支持，可以运行 Play 商店上的应用，使用 Google 账户同步之类的，Chrome OS 现在到时支持了使用 Android App，也支持运行一些 Linux 应用，听起来还蛮强，所以就想安装试一下。
+Chrome OS 的确有开源的 Chromium OS 可以使用，比较起来区别和 ASOP 与 Google Android 的区别类似，Chrome OS 有 Google Play 支持，可以运行 Play 商店上的应用，使用 Google 账户同步之类的，Chrome OS 现在支持了使用 Android App，也支持运行一些 Linux 应用，听起来还蛮强，所以就想安装试一下。
 
 国产的已经有 Fyde OS 了，基于Chromium OS，也做到了使用 Fyde 账户同步，也可以使用 Linux 应用与 Android 应用，但是我还是希望用原生的 Chrome OS 体验一下，看一看这个系统是什么样子，之后发现了这个项目：[Project Croissant](https://github.com/imperador/chromefy) 。这个项目可以“转化”一个 Chromium OS 的安装镜像到 Chrome OS 镜像，之后烧录到USB盘上面就可就可以开机选择启动来体验了，里面加载了谷歌的各种服务，听起来很棒。现在就开始本废文旅程，写一写跟官方说明差不多的安装步骤。
 
