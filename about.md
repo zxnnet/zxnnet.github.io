@@ -24,8 +24,12 @@ viewv 等于 view we ，也许有很大的语法问题，但是想表达的，�
 
 ## 关于我
 
-一个大学生
+一个有些失败的大学生  
+欢迎联系骚扰
+
+![求包养，嘤嘤嘤](https://raw.githubusercontent.com/viewv/Pico/master/img/photo_2019-10-31_21-23-47.jpg)
 
 - Email : zxn@zxnnet.top
 - Github : <https://github.com/viewv>
+- Telegram：@C_Monitor
 
