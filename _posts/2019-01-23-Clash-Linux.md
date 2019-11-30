@@ -49,7 +49,7 @@ pm2 start clash-linux
 
 ## 订阅地址
 
-面板里面没有提供订阅地址的选项，这也正常，不过这还是不方便，每次手动去操作下载config，手动重启软件，配置代理，太烦了，所以我就自己用Python写了一个自动更新配置文件的代码，[下载地址](https://www.jianguoyun.com/p/Df6xCF0QivupBxiQkJsB)，这个代码需要你按照这篇文章中写的一样安装pm2运行一遍clash-linux，还需要python3的支持，而且依赖几个库，requests，ruamel.yaml，tqdm，其中ruamel那个的安装代码如下：
+面板里面没有提供订阅地址的选项，这也正常，不过这还是不方便，每次手动去操作下载config，手动重启软件，配置代理，太烦了，所以我就自己用Python写了一个自动更新配置文件的代码（其实就是个下载文件的代码，大佬们见笑了），[地址](https://gist.github.com/viewv/60aafad91e5a42eb181af29a3cc88906)，这个代码需要你按照这篇文章中写的一样安装pm2运行一遍clash-linux，还需要python3的支持，而且依赖几个库，requests，ruamel.yaml，tqdm，其中ruamel那个的安装代码如下：
 
 ```bash
 pip install ruamel.yaml
@@ -58,3 +58,4 @@ pip install ruamel.yaml
 这些库中，request就是网络相关的，ruamel是处理yaml文件的，tqdm是一个进度条软件，显示下载进度，在这个代码中需要修改的地方有标注，根据自己的需要修改相关的代码来运行就可以，菜鸡代码，大家见谅。
 
 这些就是全部的内容了，这样就有了一个说的过去的环境来使用clash代理，相比起来Windows和Mac的客户端还是要不方便一点，不过这样也不错，有Linux的风格。
+
