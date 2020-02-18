@@ -3,7 +3,7 @@ layout: article
 title: vscode c++ Debug 设置与问题修复
 tags: vscode cpp c++ debug 方法
 mode: immersive
-key: q11
+key: q13
 aside:
   toc: true
 header:
