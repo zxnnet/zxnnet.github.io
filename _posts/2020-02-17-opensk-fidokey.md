@@ -142,7 +142,7 @@ board=nrf52840_mdk_usb_dongle ./deploy.sh app
 
 #### 制作固件
 
-搜索 [IntelHex](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/opensk/building/) ，讲整个库clone下来，在里面应该能找到那几个python文件，拷贝出来放到你的方便的地方，之后就可以运行wiki下面的那两条python指令：
+搜索 [IntelHex](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/opensk/building/) ，将整个库clone下来，在里面应该能找到那几个python文件，拷贝出来放到你的方便的地方，之后就可以运行wiki下面的那两条python指令：
 
 ```bash
 python bin2hex.py --offset=0x30000 padding.bin padding.hex
