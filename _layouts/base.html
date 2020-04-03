@@ -3,15 +3,8 @@ layout: none
 ---
 <!DOCTYPE html>
 {%- include snippets/get-lang.html -%}
-<html lang="{{ __return }}">
+<html lang="{{ __return }}" style="filter: grayscale(100%);">
   <head>
-    *{
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-    }
     {%- include analytics.html -%}
     {%- include head.html -%}
     <script>
