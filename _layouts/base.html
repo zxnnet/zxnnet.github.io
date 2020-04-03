@@ -5,6 +5,15 @@ layout: none
 {%- include snippets/get-lang.html -%}
 <html lang="{{ __return }}">
   <head>
+    <script type='text/css'>
+      *{
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+      }
+    </script>
     {%- include analytics.html -%}
     {%- include head.html -%}
     <script>
